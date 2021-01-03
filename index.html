@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MT 2 PT</title>
+</head>
+<style>
+    body {background-color:#121212;}
+    h1 {
+    text-align: center;
+  color: whitesmoke;
+  font-family: verdana;
+  font-size: 300%;
+}
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 0px solid green; 
+}
+</style>
+
+<script src="./script.js"></script>
+<body>
+    <h1>Convert between MT and PT</h1>
+    <br></br>
+    <div class="center">
+    <textarea id="mt_field" rows="15" cols="40"></textarea>
+    <br><br>
+    <button type="button" onclick="mt2pt()">Convert to PT</button>
+    <button type="button" onclick="pt2mt()">Convert to MT</button>
+    <br><br>
+    <textarea id="pt_field" rows="15" cols="40"></textarea>
+    <br><br>
+</div>
+</body>
+</html>
