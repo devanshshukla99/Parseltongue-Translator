@@ -1,5 +1,5 @@
 **********************
-Prseltongue Translator
+Parseltongue Translator
 **********************
 
 Enjoy!
