@@ -125,7 +125,8 @@ function pt2mt()
             if (pt[i][j] === pt[i][j].toUpperCase()) {
                 x = pt2mt_dict[pt[i].slice(ej, j)];
                 if(x == undefined)
-                {x = pt[i].slice(ej, j);
+                {
+                    x = pt[i].slice(ej, j);
                 }
                 mt += x; 
                 ej = j;        
