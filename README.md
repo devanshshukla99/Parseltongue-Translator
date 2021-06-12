@@ -1,1 +1,5 @@
-# PTCMT
+**********************
+Prseltongue Translator
+**********************
+
+Enjoy!
